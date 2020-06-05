@@ -1,7 +1,13 @@
 import React from 'react';
+import AuthTemplate from './../components/auth/AuthTemplate';
+import AuthFrom from '../components/auth/AuthFrom';
 
 const RegisterPage = () => {
-  return <div>회원가입</div>;
+  return (
+    <AuthTemplate>
+      <AuthFrom type="register" />
+    </AuthTemplate>
+  );
 };
 
 export default RegisterPage;
