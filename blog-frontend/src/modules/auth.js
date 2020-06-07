@@ -80,7 +80,7 @@ const auth = handleActions(
       authError: error,
     }),
     // 로그인 성공
-    [LOGIN]: (state, { payload: auth }) => ({
+    [LOGIN_SUCCESS]: (state, { payload: auth }) => ({
       ...state,
       authError: null,
       auth,
