@@ -53,7 +53,7 @@ const RegitserFrom = ({ history }) => {
     dispatch(register({ username, password }));
   };
 
-  // 컴포넌트가 처음 렌더링 될 떄 form을 초기화함
+  // 컴포넌트가 처음 렌더링 될 때 form을 초기화함
   useEffect(() => {
     dispatch(initializeForm('register'));
   }, [dispatch]);
