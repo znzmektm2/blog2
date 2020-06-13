@@ -32,7 +32,6 @@ const LoginForm = ({ history }) => {
   const onSubmit = (e) => {
     e.preventDefault();
     const { username, password } = form;
-
     dispatch(login({ username, password }));
   };
 

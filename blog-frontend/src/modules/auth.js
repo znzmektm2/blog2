@@ -57,6 +57,12 @@ const initialState = {
   authError: null,
 };
 
+// auth: {
+//     "_id": "5ee4344e2eb82e2dbc264ec5",
+//     "username": "sierra3",
+//     "__v": 0
+// }
+
 const auth = handleActions(
   {
     [CHANGE_FIELD]: (state, { payload: { form, key, value } }) =>
