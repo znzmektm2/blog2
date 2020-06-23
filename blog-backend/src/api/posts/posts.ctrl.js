@@ -1,4 +1,4 @@
-import Post from "../../modules/post";
+import Post from "../../models/post";
 import mongoose from "mongoose";
 import Joi from "@hapi/joi";
 import sanitizeHtml from "sanitize-html";
@@ -14,10 +14,11 @@ const sanitizeOption = {
     "u",
     "s",
     "p",
+    "pre",
     "ul",
     "ol",
     "li",
-    "blockquot",
+    "blockquote",
     "a",
     "img",
   ],
@@ -74,6 +75,8 @@ export const write = async (ctx) => {
   }
 
   const { title, body, tags } = ctx.request.body;
+  console.log(body);
+  console.log("body", body);
   const post = new Post({
     title,
     body: sanitizeHtml(body, sanitizeOption),
@@ -182,7 +185,7 @@ export const update = async (ctx) => {
   const nextData = { ...ctx.request.body }; // 객체를 복사하고
   // body 값이 주어졌으면 HTML 필터링
   if (nextData.body) {
-    nextData.body = sanitizeHtml(nextData.body);
+    nextData.body = sanitizeHtml(nextData.body, sanitizeOption);
   }
   try {
     const post = await Post.findByIdAndUpdate(id, nextData, {
