@@ -75,8 +75,6 @@ export const write = async (ctx) => {
   }
 
   const { title, body, tags } = ctx.request.body;
-  console.log(body);
-  console.log("body", body);
   const post = new Post({
     title,
     body: sanitizeHtml(body, sanitizeOption),
