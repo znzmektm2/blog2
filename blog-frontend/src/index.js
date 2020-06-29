@@ -11,6 +11,11 @@ import createSagaMiddleware from 'redux-saga';
 import rootReducers, { rootSaga } from './modules';
 import { tempSetUser, check } from './modules/user';
 import { HelmetProvider } from 'react-helmet-async';
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+import 'react-app-polyfill/ie9';
+import 'react-app-polyfill/ie11';
+import 'react-app-polyfill/stable';
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(
