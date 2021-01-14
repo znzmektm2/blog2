@@ -10,9 +10,9 @@
 - react-helmet-async로 meta 태그 설정
 
 # View Image
-> ![2021-01-14 18 37 45](https://user-images.githubusercontent.com/35294456/104574504-73570580-5699-11eb-8f7f-0f8464d83897.jpg)
+> ![2021-01-14 18 37 45](https://user-images.githubusercontent.com/35294456/104577355-bf577980-569c-11eb-939c-4e205e279398.jpg)
 
-> ![2021-01-14 18 39 23](https://user-images.githubusercontent.com/35294456/104573421-376f7080-5698-11eb-98b6-23e7d5843204.png)
+> ![2021-01-14 18 39 23](https://user-images.githubusercontent.com/35294456/104577453-db5b1b00-569c-11eb-8998-dde8fde4c91d.png)
 
 > ![2021-01-14 18 39 51](https://user-images.githubusercontent.com/35294456/104573424-376f7080-5698-11eb-9ac9-f427a3724ae8.png)
 
