@@ -45,7 +45,7 @@ app.use(async (ctx) => {
 });
 
 // PORT가 지정되어 있지 않다면 4000을 사용
-const port = PORT || 80;
+const port = PORT || 4000;
 app.listen(port, () => {
   console.log("Listening to port", port);
 });
