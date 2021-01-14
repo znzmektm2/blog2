@@ -14,7 +14,7 @@
 
 ---
 
-![2021-01-14 18 39 23](https://user-images.githubusercontent.com/35294456/104577830-4a387400-569d-11eb-8c09-6c10843177b0.png)
+![2021-01-14 18 39 23](https://user-images.githubusercontent.com/35294456/104578161-badf9080-569d-11eb-9ecd-4a36ee828b87.png)
 
 ---
 
